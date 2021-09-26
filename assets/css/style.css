@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main{
+
+}
+html{
+    font-family: Helvetica, Arial, sans-ser;
+}
+
+#header{
+    height: 60px;
+    background-color: #000;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav .subnav {
+    /* display: none; */
+    position: absolute;
+}
+
+#nav .ti-menu {
+    font-size: 16px;
+}
+
+#header .search-button{
+    float: right;
+    padding:0 21px;
+    cursor: pointer;
+}
+
+#header .ti-search {
+    color: #fff;
+    front-size: 16px;
+    line-height: 60px;
+    
+}
+
+#header .user-button{
+    float: right;
+    padding:0 21px;
+    cursor: pointer;
+}
+
+#header .ti-user{
+    front-size: 16px;
+    color: #fff;
+    line-height: 60px;
+}
+
+#header .shopping-button{
+    float: right;
+    padding:0 21px;
+    cursor: pointer;
+}
+
+#header .ti-shopping-cart{
+    front-size: 16px;
+    color: #fff;
+    line-height: 60px;
+}
+
+#header .instagram-button{
+    float: right;
+    padding:0 21px;
+    cursor: pointer;
+}
+#header .ti-instagram{
+    front-size: 16px;
+    color: #fff;
+    line-height: 60px;
+}
+#nav li a{
+    color: #fff;
+    text-decoration: none;
+    line-height:60px;
+    padding: 0 40px;
+    display: inline-block;
+}
+#nav .subnav li:hover a,
+#nav >li:hover> a{
+    color: #000;
+    background-color: #ccc;
+    
+}
+
+#slider{
+
+}
+
+#content{
+
+}
+
+#footer{
+
+}
