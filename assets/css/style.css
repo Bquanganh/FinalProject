@@ -23,11 +23,6 @@ html{
     position: relative;
 }
 
-#nav .subnav {
-    /* display: none; */
-    position: absolute;
-}
-
 #nav .ti-menu {
     font-size: 16px;
 }
@@ -85,12 +80,6 @@ html{
     line-height:60px;
     padding: 0 40px;
     display: inline-block;
-}
-#nav .subnav li:hover a,
-#nav >li:hover> a{
-    color: #000;
-    background-color: #ccc;
-    
 }
 
 #slider{
